@@ -1,0 +1,11 @@
+name: Test
+on: push
+
+jobs:
+  testJob:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print Arithmetic
+      run: echo "Arithmetic success"
+  
